@@ -6,7 +6,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "default" {
   name     = "${random_pet.prefix.id}-rg"
-  location = "East US 2"
+  location = "West US"
 
   tags = {
     environment = "Demo"
